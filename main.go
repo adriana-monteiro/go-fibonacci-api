@@ -22,7 +22,7 @@ func init() {
 	// 	infoLogger.SetOutput(os.Stdout)
 	// } else {
 	// 	infoLogger.SetOutput(os.Stdout)
-	// }ß
+	// }ßq
 }
 
 func fibonacci(n int) []int {
