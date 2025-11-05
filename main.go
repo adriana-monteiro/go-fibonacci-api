@@ -14,15 +14,15 @@ var (
 )
 
 func init() {
-	logLevel := os.Getenv("LOG_LEVEL")
+	// logLevel := os.Getenv("LOG_LEVEL")
 	infoLogger = log.New(os.Stdout, "INFO: ", log.Ldate|log.Ltime|log.Lshortfile)
 	errorLogger = log.New(os.Stderr, "ERROR: ", log.Ldate|log.Ltime|log.Lshortfile)
 
-	if logLevel != "DEBUG" {
-		infoLogger.SetOutput(os.Stdout)
-	} else {
-		infoLogger.SetOutput(os.Stdout)
-	}
+	// if logLevel != "DEBUG" {
+	// 	infoLogger.SetOutput(os.Stdout)
+	// } else {
+	// 	infoLogger.SetOutput(os.Stdout)
+	// }ß
 }
 
 func fibonacci(n int) []int {
